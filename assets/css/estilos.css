@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    min-height: 20vh;
+    padding: 3rem 5rem 0 5rem;
+    position: relative;
+}
+h1{    
+    font-size:40px;
+    font-family: 'Hachi Maru Pop', cursive;
+    margin-bottom: 1rem;
+}
+
+nav{
+    float: right;
+    left: 1rem;
+    position: absolute;
+    left: 60%;
+    top: 20%;
+}
+
+header img{
+    width: 100%;
+    height: 400px;
+    vertical-align: bottom;
+}
+
+a{
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    color: white;
+    background-color:rgb(68, 114, 196);
+    text-decoration: none;
+    text-align: center;
+    font-weight: bolder;
+    border: black 2px solid;
+    box-shadow: 5px 3px 3px rgb(153, 153, 153);
+    padding: 2px;
+    margin: auto 8px;
+}
+
+#home{
+    background-color: rgb(112, 173, 71);
+}
+
+h2{
+    padding: 5px;
+    margin: 0 5rem;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.logo {
+    display: inline-block;
+    
+}
+
+.logo img{
+    width: 30rem;
+    height: 30rem;
+    padding: 5rem;
+    background-color: blue;
+}
+.contenido{ 
+    display: inline-block;
+    position: absolute;    
+    width: 30rem;
+    height: 15rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.358);
+    margin: 1rem;
+}
+
+
+
+
